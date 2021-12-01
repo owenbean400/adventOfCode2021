@@ -2,6 +2,13 @@
 
 [Advent Of Code Link](https://adventofcode.com/)
 
+### Language of Choice
+
+Typescript with NodeJS
+
+[Typescript Documentation](https://www.typescriptlang.org/docs/)
+[NodeJS Documentation](https://nodejs.org/en/docs/)
+
 ### Challenge Checklist
 
 - [x] day 1 - Gold
