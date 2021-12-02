@@ -12,7 +12,7 @@ Typescript with NodeJS
 ### Challenge Checklist
 
 - [x] day 1 - Gold
-- [] day 2
+- [x] day 2 - Gold
 - [] day 3
 - [] day 4
 - [] day 5
