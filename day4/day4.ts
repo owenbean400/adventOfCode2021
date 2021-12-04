@@ -27,7 +27,7 @@ class BingoBoard {
         }
     }
 
-    CheckWinner(): boolean {
+    checkWinner(): boolean {
         let winner = false;
         for(let i = 0; i < this.board.length; i++) {
             winner = true;
@@ -99,7 +99,7 @@ function getWinningBoard(drawings: Array<number>, boards: Array<BingoBoard>): an
     for (let draw of drawings) {
         for (let board of boards) {
             board.chosenNumber(draw);
-            if (board.CheckWinner()) return { num: draw, board: board };
+            if (board.checkWinner()) return { num: draw, board: board };
         }
     }
 
@@ -116,7 +116,7 @@ function getLastBoard(drawings: Array<number>, boards: Array<BingoBoard>): answe
         cntLosers = 0;
         for (let board of boards) {
             board.chosenNumber(draw);
-            if (!board.CheckWinner()) {
+            if (!board.checkWinner()) {
                 cntLosers++;
                 loserBoard = board;
             }
