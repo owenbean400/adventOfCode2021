@@ -14,7 +14,7 @@ Typescript with NodeJS
 - [x] day 1 - Gold
 - [x] day 2 - Gold
 - [x] day 3 - Gold
-- [] day 4
+- [x] day 4 - Gold
 - [] day 5
 - [] day 6
 - [] day 7
