@@ -7,6 +7,7 @@ import { day6Challenge1, day6Challenge2 } from "./day6/day6";
 import { day7Challenge1, day7Challenge2 } from "./day7/day7";
 import { day8Challenge1, day8Challenge2 } from "./day8/day8";
 import { day9Challenge1, day9Challenge2 } from "./day9/day9";
+import { day10Challenge1, day10Challenge2 } from "./day10/day10";
 
 day1Challenge1();
 day1Challenge2();
@@ -34,3 +35,6 @@ day8Challenge2();
 console.log();
 day9Challenge1();
 day9Challenge2();
+console.log();
+day10Challenge1();
+day10Challenge2();
